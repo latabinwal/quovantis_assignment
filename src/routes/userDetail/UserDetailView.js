@@ -35,7 +35,10 @@ const useStyles = makeStyles(theme => ({
 			marginTop: "40px",
 			'& .user__phone':{
 				position: 'absolute',
-    		left: 0,
+				left: 0,
+				'& svg':{
+					marginBottom: '-7px',
+				}
 			},
 			'& .user__email':{
 				position: 'absolute',
@@ -45,13 +48,6 @@ const useStyles = makeStyles(theme => ({
 					marginBottom: '-7px',
 				}
 			},
-			'& .user__phone':{
-				fontSize: '12px',
-				position: 'absolute',
-				'& svg':{
-					marginBottom: '-7px',
-				}
-			}
 		}
   }
 }));
