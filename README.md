@@ -1,1 +1,0 @@
-# quovantis_assignment
